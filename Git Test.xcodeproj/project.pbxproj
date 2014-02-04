@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9973FBA18A12B9F008FD829 /* MWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9973FB918A12B9F008FD829 /* MWTest.m */; };
 		D9EDFC9D18A12378008CB85C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDFC9C18A12378008CB85C /* Foundation.framework */; };
 		D9EDFC9F18A12378008CB85C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDFC9E18A12378008CB85C /* CoreGraphics.framework */; };
 		D9EDFCA118A12378008CB85C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EDFCA018A12378008CB85C /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9973FB818A12B9F008FD829 /* MWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTest.h; sourceTree = "<group>"; };
+		D9973FB918A12B9F008FD829 /* MWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTest.m; sourceTree = "<group>"; };
 		D9EDFC9918A12378008CB85C /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EDFC9C18A12378008CB85C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9EDFC9E18A12378008CB85C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +85,8 @@
 		D9EDFC9018A12378008CB85C = {
 			isa = PBXGroup;
 			children = (
+				D9973FB818A12B9F008FD829 /* MWTest.h */,
+				D9973FB918A12B9F008FD829 /* MWTest.m */,
 				D9EDFCA218A12378008CB85C /* Git Test */,
 				D9EDFCC118A12378008CB85C /* Git TestTests */,
 				D9EDFC9B18A12378008CB85C /* Frameworks */,
@@ -253,6 +258,7 @@
 				D9EDFCAD18A12378008CB85C /* MWAppDelegate.m in Sources */,
 				D9EDFCB318A12378008CB85C /* MWViewController.m in Sources */,
 				D9EDFCA918A12378008CB85C /* main.m in Sources */,
+				D9973FBA18A12B9F008FD829 /* MWTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				D9EDFCCD18A12378008CB85C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9EDFCCE18A12378008CB85C /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				D9EDFCD018A12378008CB85C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
